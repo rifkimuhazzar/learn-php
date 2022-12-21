@@ -13,7 +13,7 @@ if($value >= 90 && $present >= 95) {
   echo "Try again" . PHP_EOL;
 }
 
-// Cara 2
+// Syntax Alternative
 if($value >= 90 && $present >= 95):
   echo "A" . PHP_EOL;
 elseif($value >= 80 && $present >= 85):
