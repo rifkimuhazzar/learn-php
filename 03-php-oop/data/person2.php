@@ -1,6 +1,9 @@
 <?php
 
 class Person {
+  // constant di dialam class menempel ke classnya, jadi tidak butuh object
+  const AUTHOR = "Rifki Muhazzar"; 
+
   var string $name;
   var ?string $role;
   var string $city = "Singapore";
@@ -12,5 +15,10 @@ class Person {
     } else {
       echo "Hi $name, my name is $this->name" . PHP_EOL; 
     }
+  }
+
+  function info() {
+    // self digunakan untuk mengakses classnya sendiri
+    echo "Author : " . self::AUTHOR . PHP_EOL; // sama dengan Person::AUTHOR
   }
 }
