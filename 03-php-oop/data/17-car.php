@@ -1,7 +1,7 @@
 <?php
 
 // interface mirip dengan abstract class
-// interface otomatis abstract dan methodnya juga, tidak memiliki block
+// interface otomatis abstract beserta methodnya juga, tidak memiliki block
 // interface memang di buat untuk contract sebgai prototype
 // tidak boleh memiliki props
 // gunakan implements untuk merawiskan ke class
