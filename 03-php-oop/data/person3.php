@@ -13,7 +13,7 @@ class Person {
     $this->address = $address;
   }
 
-  // destructor - tidak perlu memasukkan argument
+  // destructor - tidak perlu memasukkan argument, di eksekusi ketika program selesai
   // biasa digunakan untuk menutup koneksi ke db atau menutup proses menulis ke file
   function __destruct() {
     echo "Object $this->name is destroyed" . PHP_EOL;

@@ -34,7 +34,33 @@ trait HasName {
   public string $name;
 }
 
+trait CanRun {
+  // jika menggunakan abstract function di trait, maka harus di override di classnya
+  public abstract function run(): void;
+}
+
 // gunakan use untuk megambil isi trait
+// urutan override = ParentClass => Trait => ChildClass
+
+class ParentPerson {
+  public function hello(?string $name): void {
+    echo "Hello in ParentPerson" . PHP_EOL;
+  }
+}
+
+// inheritance trait hanya bisa sesama trait, caranya gunakan use
+trait All {
+  use SayGoodBye, SayHello, HasName, CanRun {
+    // override visibility trait
+    hello as public;
+    goodBye as public;
+  }
+}
+
 class Person {
-  use SayGoodBye, SayHello, HasName;
+  use All;
+
+  public function run(): void {
+    echo "Person $this->name is running" . PHP_EOL;
+  }
 }

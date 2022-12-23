@@ -10,3 +10,4 @@ $person->hello("Rifki 2");
 
 $person->name = "Rifki 3";
 var_dump($person);
+$person->run();
