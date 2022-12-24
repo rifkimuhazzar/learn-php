@@ -23,7 +23,7 @@ var_dump($now);
 // mengkonversi dateTime ke string dengan format()
 echo "Waktu saat ini : {$now->format("Y-m-d H:i:s")}" .PHP_EOL;
 
-// mengkonversi dari tring ke dateTime dengan createFromFormat()
+// mengkonversi dari string ke dateTime dengan createFromFormat()
 // default timezonenya adalah timezone di php
 $date = DateTime::createFromFormat("Y-m-d H:i:s", "2022-10-10 10:10:10", new DateTimeZone("Asia/Jakarta"));
 var_dump($date);
