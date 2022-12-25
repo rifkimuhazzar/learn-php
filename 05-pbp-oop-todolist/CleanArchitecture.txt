@@ -1,0 +1,9 @@
+Clean Architecture
+
+Entities = enterprice business rules | table/class
+
+Use Case = application bussiness rules | logic
+
+Interface Adapter = ui | Controllers, Gateways, Presenters | implementasi terminal(utk app terminal) / layer view
+
+Framework & Drivers = Device, Web, UI, External Interface, DB | bukan urusan kita karana kita cuma pakai saja
