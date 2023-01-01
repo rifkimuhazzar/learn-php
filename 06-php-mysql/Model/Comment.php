@@ -32,7 +32,7 @@ namespace Model {
     public function setComment(?string $comment): void {
       $this->comment = $comment;
     }
-
+    
   }
 
 }
