@@ -18,6 +18,12 @@
     }
   },
   "require": {
+    "php": ">=8.0",
+    "php-composer/my-library": "2.0.0",
     "monolog/monolog": "3.2.0"
+  },
+  "scripts": {
+    "run-server": "php -S localhost:8080",
+    "hello": "echo 'Hello World'"
   }
 }

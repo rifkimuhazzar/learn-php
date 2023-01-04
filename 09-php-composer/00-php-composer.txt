@@ -19,3 +19,6 @@ composer dump-autoload
 ~1.2
 
 ^1.2.3
+
+# Shortcut script
+composer nama_script
