@@ -1,0 +1,23 @@
+{
+  "name": "belajar-php-composer/rifki-muhazzar",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "BelajarPhpComposer\\RifkiMuhazzar\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "rifkimuhazzar",
+      "email": "rifkiki78@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MyClass\\": "src/"
+    }
+  },
+  "require": {
+    "monolog/monolog": "3.2.0"
+  }
+}

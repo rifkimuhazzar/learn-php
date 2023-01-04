@@ -1,0 +1,21 @@
+composer init
+composer update
+composer install
+
+# nama file harus sama dengan class
+composer dump-autoload
+
+# penulisan versio composer.json
+1.0.2
+
+>=1.0
+>=1.0 <2.0
+>=1.0 <1.1 || >=1.2
+
+1.0 - 2.0
+
+1.0.*
+
+~1.2
+
+^1.2.3
