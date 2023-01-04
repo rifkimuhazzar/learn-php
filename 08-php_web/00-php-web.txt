@@ -1,3 +1,5 @@
 # menjalankan php development server, ketikan ini di terminal dari foldernya.
 # php development server hanya untuk development saja tidak untuk production.
 php -S localhost:8080 
+
+# $_SESSION tidak di rekomendasikan di gunakan
