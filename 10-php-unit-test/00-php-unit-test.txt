@@ -1,0 +1,4 @@
+# PHPUnit
+vendor/bin/phpunit folder/file.php
+vendor/bin/phpunit folder/
+vendor/bin/phpunit --filter "CounterTest::testOther" tests/CounterTest.php
