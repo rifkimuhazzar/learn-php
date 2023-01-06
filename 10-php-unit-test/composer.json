@@ -18,6 +18,11 @@
       "email": "rifkiki78@gmail.com"
     }
   ],
+  "scripts": {
+    "test": "phpunit --configuration phpunit.xml",
+    "test:product": "phpunit --configuration phpunit.xml --testsuite product",
+    "test:counter": "phpunit --configuration phpunit.xml --testsuite counter"
+  },
   "require": {
     "php": ">=8.0"
   },

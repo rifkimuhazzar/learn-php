@@ -2,3 +2,7 @@
 vendor/bin/phpunit folder/file.php
 vendor/bin/phpunit folder/
 vendor/bin/phpunit --filter "CounterTest::testOther" tests/CounterTest.php
+
+# Mock untuk trait dan abstract class | creteMock hanya untuk Class dan Interface
+getMockForTrait(trait)
+getMockForAbstractClass(abstractClass)
