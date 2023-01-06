@@ -1,0 +1,25 @@
+# untuk membuat alias dari host 127.0.0.1
+C:\Windows\System32\drivers\etc
+
+# Development
+127.0.0.1 php-mvc.phpx
+
+# saat menulis url nya pada browser tetap harus menggunakan port
+
+# Virtual hosts
+# nama file C:\xampp\apache\conf\httpd.conf
+Include conf/extra/httpd-vhosts.conf
+
+# nama file C:\xampp\apache\conf\extra\httpd-vhosts.conf
+<VirtualHost *:80>
+    ServerAdmin admin@php-mvc.phpx
+    DocumentRoot "C:/xampp/htdocs/11-php-mvc/public"
+    ServerName php-mvc.phpx
+    ErrorLog "logs/php-mvc.phpx.error.log"
+    CustomLog "logs/php-mvc.phpx-access.log" common
+</VirtualHost>
+
+# masukkan folder projectnya ke xampp/htdocs
+# jalankan xampp apache kemudian bisa menulis urlnya di browser tanpa harus mengetikkan portnya juga
+
+# file .htaccess
