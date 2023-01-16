@@ -10,4 +10,11 @@ class View {
     require __DIR__ . "/../view/footer.php";
   }
 
+  public static function redirect(string $url) {
+    header("Location: $url");
+   
+    if (getenv("mode") != "test") {
+      exit();
+    }
+  }
 }
