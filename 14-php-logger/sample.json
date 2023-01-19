@@ -1,0 +1,16 @@
+{
+  "message": "Belajar PHP Logging",
+  "context": { "username": "Rifki" },
+  "level": 200,
+  "level_name": "INFO",
+  "channel": "MyLibrary\\Belajar\\PHP\\MVC\\FormatterTest",
+  "datetime": "2023-01-19T16:12:51.904326+07:00",
+  "extra": {
+    "hostname": "A416JP",
+    "memory_usage": "4 MB",
+    "git": {
+      "branch": "master",
+      "commit": "5b45fcd875f3b717e7a949998071b4a6ee62a146"
+    }
+  }
+}
